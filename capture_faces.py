@@ -1,4 +1,4 @@
-# capture_faces.py - CHỈ 1 Ô VUÔNG ĐẸP, GÓC NGHIÊNG VẪN CHỤP ĐƯỢC
+# capture_faces.py
 import cv2, os, json, time, subprocess
 
 os.makedirs("dataset", exist_ok=True)

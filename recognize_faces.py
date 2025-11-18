@@ -11,7 +11,6 @@ with open("users.json", "r", encoding="utf-8") as f:
     users = json.load(f)
 
 cap = cv2.VideoCapture(0)
-print("RecoFace - Chỉ 1 ô vuông, nghiêng vẫn nhận diện ngon!")
 print("Nhấn Q để thoát")
 
 while True:
@@ -45,7 +44,7 @@ while True:
         cv2.rectangle(frame, (x,y), (x+w,y+h), color, 3)
         cv2.putText(frame, text, (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
 
-    cv2.putText(frame, "Chi 1 o vuong - Nghieng van ngon!", (10,30),
+    cv2.putText(frame, "nhan dien khuon mat", (10,30),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,0), 2)
     cv2.imshow("RecoFace", frame)
 
