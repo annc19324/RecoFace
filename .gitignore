@@ -1,0 +1,20 @@
+# Bỏ qua toàn bộ ảnh khuôn mặt
+dataset/
+
+# Bỏ qua tất cả file font Arial (không cần đẩy lên)
+fonts/
+ARIAL.TTF
+ARIALBD.TTF
+ARIALBI.TTF
+ARIALI.TTF
+ARIALN.TTF
+ARIALNB.TTF
+ARIALNBI.TTF
+ARIALNI.TTF
+ARIBLK.TTF
+
+# Bỏ qua model đã train
+trainer/trained_model.yml
+
+__pycache__/
+*.pyc
