@@ -7,7 +7,7 @@ def run(cmd):
 while True:
     os.system("cls" if os.name == "nt" else "clear")
     print("="*50)
-    print("     RECOFACE 2025 - NHẬN DIỆN KHUÔN MẶT")
+    print("     RECOFACE - NHẬN DIỆN KHUÔN MẶT")
     print("="*50)
     print("1. Thêm người mới (chụp ảnh)")
     print("2. Huấn luyện lại mô hình")
